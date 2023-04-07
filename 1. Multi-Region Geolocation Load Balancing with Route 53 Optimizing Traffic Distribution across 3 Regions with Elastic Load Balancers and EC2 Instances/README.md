@@ -30,7 +30,19 @@
 ![1  ELB-US-East-1](https://user-images.githubusercontent.com/81208412/230542783-1ffeeafc-ee3d-410d-bb2f-a3bcd763f355.jpg)
 
 
--- ### us-east-1
+- ### eu-central-1
+
+![2  EC2-EU-Central-1](https://user-images.githubusercontent.com/81208412/230542898-2db4957a-2fdc-4aa5-ac7f-04869fb2f413.jpg)
+
+![1  ELB-EU-Central-1](https://user-images.githubusercontent.com/81208412/230542906-8aba542d-5ff7-472a-855e-c514ada127dc.jpg)
+
+
+- ### ap-southeast-1
+
+![2  EC2-AP-Southeast-1](https://user-images.githubusercontent.com/81208412/230542943-6f5f47b6-894c-4441-a34e-e4c29f3e7b3b.jpg)
+
+![1  ELB-AP-Southeast-1](https://user-images.githubusercontent.com/81208412/230542960-e6a9294e-2e31-4f59-bb91-3d2eea1577ca.jpg)
+
 
 
 
