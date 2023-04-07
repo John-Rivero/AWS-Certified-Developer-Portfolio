@@ -1,7 +1,7 @@
 # AWS Cloud Engineer Projects
 # Table of Contents
 
-- [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](#1-Top-5-Countries-with-the-Best-Investment-Potential-An-Analysis-of-GDP-and-Inflation-Rates-in-SQL-and-Visualization-in-Tableau)
+- [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](#1-Multi-Region-Geolocation-Load-Balancing-with-Route-53-Optimizing-Traffic-Distribution-across-3-Regions-with-Elastic-Load-Balancers-and-EC2-Instances)
 
 - [2. The Impact of GDP on Fertility Rate: A Quantitative Analysis of National Wealth and Population Growth in R and Visualization in Tableau](#2-The-Impact-of-GDP-on-Fertility-Rate-A-Quantitative-Analysis-of-National-Wealth-and-Population-Growth-in-R-and-Visualization-in-Tableau)
 
