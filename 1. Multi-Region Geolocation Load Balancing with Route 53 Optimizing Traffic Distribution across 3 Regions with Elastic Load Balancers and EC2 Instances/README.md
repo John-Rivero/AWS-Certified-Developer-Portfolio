@@ -20,10 +20,10 @@
 
 ## Step 2
 
--Deploy two EC2 instances and one Application Load Balancer in each of the following regions: us-east-1, eu-central-1, and ap-southeast-1.
+- Deploy two EC2 instances and one Application Load Balancer in each of the following regions: us-east-1, eu-central-1, and ap-southeast-1.
 
 
-### us-east-1
+- ### us-east-1
 
 
 
