@@ -1,5 +1,5 @@
 
-## Title: Multi-Region Geolocation Load Balancing with Route 53 Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances
+## Title: Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances
 
 ## Created by: John Rivero
 
