@@ -25,6 +25,10 @@
 
 - ### us-east-1
 
+![2  EC2-US-East-1](https://user-images.githubusercontent.com/81208412/230542770-b2e63a3a-1ae1-4e31-9bce-af3715efcd49.jpg)
+
+![1  ELB-US-East-1](https://user-images.githubusercontent.com/81208412/230542783-1ffeeafc-ee3d-410d-bb2f-a3bcd763f355.jpg)
+
 
 
 
