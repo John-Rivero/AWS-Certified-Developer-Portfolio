@@ -8,19 +8,19 @@
 
 ## Task
 
-- Set up an AWS Infrastructure with Route 53 Geolocation for three regions (us-east-1, eu-central-1, ap-southeast-1), and configure three Application Load Balancers with two EC2 instances each, connected with Route 53 for inter-regional load balancing.
+- Set up an AWS Infrastructure with Route 53 Geolocation for three regions (North America, Europe, Asia), and configure three Application Load Balancers with two EC2 instances each, connected with Route 53 for inter-regional load balancing.
 
 
 ## Step 1
 
-- Design an infrastructure diagram illustrating the configuration of Route 53 Geolocation for three distinct regions. Each region should include one Application Load Balancer and two EC2 instances.
+- I designed an infrastructure diagram illustrating the configuration of Route 53 Geolocation for three distinct regions. Each region should include one Application Load Balancer and two EC2 instances.
 
 ![2  Route53 Diagram](https://user-images.githubusercontent.com/81208412/230541868-ffcd4d47-8ef0-454c-b27a-31e5996578df.jpg)
 
 
 ## Step 2
 
-- Deploy two EC2 instances and one Application Load Balancer in each of the following regions: us-east-1, eu-central-1, and ap-southeast-1.
+- I deployed two EC2 instances and one Application Load Balancer in each of the following regions: us-east-1, eu-central-1, and ap-southeast-1.
 
 
 - ### us-east-1
@@ -45,10 +45,17 @@
 
 
 
+## Step 3
+
+- I configured three Route 53 records (using Geolocation) that utilize Alias to direct traffic to Application Load Balancers in us-east-1 (North America), eu-central-1 (Europe), and ap-southeast-1 (Asia). I also assigned appropriate locations to each record to align with their respective regions.
+
+![1  Route53](https://user-images.githubusercontent.com/81208412/230543142-1b0248a5-7a13-4f08-8118-e6887a90f415.jpg)
 
 
 
+## Step 4
 
+- After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
 
+![1  Result](https://user-images.githubusercontent.com/81208412/230544557-4f4becbf-4b26-4266-8a60-ee6492511bcb.jpg)
 
-## Result
