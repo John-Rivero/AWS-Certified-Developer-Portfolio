@@ -1,4 +1,4 @@
-# AWS Cloud Engineer Projects
+# AWS DevOps Projects
 # Table of Contents
 
 - [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](#1-Multi-Region-Geolocation-Load-Balancing-with-Route-53-Optimizing-Traffic-Distribution-across-3-Regions-with-Elastic-Load-Balancers-and-EC2-Instances)
