@@ -8,7 +8,7 @@
 
 ## Task
 
-- Deploy static website with Amazon S3, use CloudFront CDN, and Route 53 DNS for content distribution and domain name system.
+- Deploy a static website with Amazon S3, use CloudFront CDN, and Route 53 DNS for content distribution and domain name system.
 
 
 ## Step 1
