@@ -1,5 +1,5 @@
 
-## Title: 2. Effortless Web Deployment: Deploying a Static Website to S3 with CloudFront and Route 53 for Optimal Performance and Scalability
+## Title: Effortless Web Deployment: Deploying a Static Website to S3 with CloudFront and Route 53 for Optimal Performance and Scalability
 
 ## Created by: John Rivero
 
