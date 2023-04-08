@@ -20,7 +20,7 @@
 
 ## Step 2
 
-- I established an S3 bucket and upload the website's code.
+- I established an S3 bucket and uploaded the website's code.
 
 ![1](https://user-images.githubusercontent.com/81208412/230704603-b5f6a106-c56d-48b4-bfd2-1c2a730a6fa2.jpg)
 
