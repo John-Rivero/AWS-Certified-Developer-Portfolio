@@ -11,6 +11,12 @@
 - Deploy static website with Amazon S3, use CloudFront CDN, and Route 53 DNS for content distribution and domain name system.
 
 
+## Step 1
+
+- I created an AWS infrastructure diagram for S3 hosting a static website and CloudFront for CDN, Certificate Manager for SSL certificate, and lastly a Route 53 for DNS.
+
+![Untitled Diagram (4)](https://user-images.githubusercontent.com/81208412/230705531-ca0bb55f-599b-4684-b529-c05acd8be6f6.jpg)
+
 
 ## Step 2
 
