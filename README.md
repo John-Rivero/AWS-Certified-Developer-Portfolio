@@ -3,9 +3,11 @@
 
 - [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](#1-Multi-Region-Geolocation-Load-Balancing-with-Route-53-Optimizing-Traffic-Distribution-across-3-Regions-with-Elastic-Load-Balancers-and-EC2-Instances)
 
+
 - [2. Effortless Web Deployment: Deploying a Static Website to S3 with CloudFront and Route 53 for Optimal Performance and Scalability](#2-Effortless-Web-Deployment-Deploying-a-Static-Website-to-S3-with-CloudFront-and-Route-53-for-Optimal-Performance-and-Scalability)
 
-- [3. Containerized Nginx Deployment Orchestrating Nginx with ECS Fargate]
+
+- [3. Containerized Nginx Deployment: Orchestrating Nginx with ECS Fargate]
 (#3-Containerized-Nginx-Deployment-Orchestrating-Nginx-with-ECS-Fargate)
 
 
