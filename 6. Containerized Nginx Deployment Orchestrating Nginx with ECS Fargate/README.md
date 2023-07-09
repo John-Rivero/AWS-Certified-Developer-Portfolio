@@ -33,7 +33,7 @@
 
 - I configured three Route 53 records (using Geolocation) that utilize Alias to direct traffic to Application Load Balancers in us-east-1 (North America), eu-central-1 (Europe), and ap-southeast-1 (Asia). I also assigned appropriate locations to each record to align with their respective regions.
 
-![1  Route53](https://user-images.githubusercontent.com/81208412/230543142-1b0248a5-7a13-4f08-8118-e6887a90f415.jpg)
+![2](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/2.jpg)
 
 
 
@@ -41,5 +41,20 @@
 
 - After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
 
-![1  Result](https://user-images.githubusercontent.com/81208412/230544557-4f4becbf-4b26-4266-8a60-ee6492511bcb.jpg)
+![3](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/3.jpg)
 
+
+
+## Step 5
+
+- After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
+
+![4](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/4.jpg)
+
+
+
+## Step 6
+
+- After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
+
+![5](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/5.jpg)
