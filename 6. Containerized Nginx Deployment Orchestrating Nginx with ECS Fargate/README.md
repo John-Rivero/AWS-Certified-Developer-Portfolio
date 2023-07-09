@@ -8,7 +8,7 @@
 
 ## Task
 
-- Deploy Nginx Docker image from the Elastic Container Registry (ECR) onto Amazon Elastic Container Service (ECS) using the Fargate launch type. Set up a simple webpage using Nginx as the web server.
+- Create a basic website by deploying the Nginx Docker image stored in the Elastic Container Registry (ECR) using ECS Fargate.
 
 
 ## Step 1
