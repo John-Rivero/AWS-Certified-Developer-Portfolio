@@ -58,3 +58,11 @@
 - After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
 
 ![5](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/5.jpg)
+
+
+
+## Step 7
+
+- After setting up the infrastructure, I copied and pasted the record name (route53.johnrivero-projects.com) into a web search to confirm that the infrastructure was working properly.
+
+![2](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/2.%20Result/2.jpg)
