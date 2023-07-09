@@ -1,5 +1,5 @@
 
-## Title: ECS Fargate Deployment: Hosting Nginx with Docker Image from ECR
+## Title: Containerized Nginx Deployment Orchestrating Nginx with ECS Fargate
 
 ## Created by: John Rivero
 

@@ -29,6 +29,6 @@
 
 ## [3. Containerized Nginx Deployment Orchestrating Nginx with ECS Fargate](https://github.com/John-Rivero/AWS-DevOps-Portfolio/tree/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate)
 
-- This project involves utilizing Amazon S3 to deploy a static website.
+- In this project, a straightforward web server is deployed using ECS. The server pulls the Nginx Docker image from the ECR repository.
 
-- Additionally, this project leverages CloudFront as the content distribution network (CDN) and Route 53 as the domain name system (DNS).
+- Additionally, this project leverages application load balancing to evenly distribute traffic among the three tasks running within the container instance.
