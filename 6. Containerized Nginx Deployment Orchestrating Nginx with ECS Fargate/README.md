@@ -1,21 +1,21 @@
 
-## Title: Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances
+## Title: ECS Fargate Deployment: Hosting Nginx with Docker Image from ECR
 
 ## Created by: John Rivero
 
-## Date: April 6, 2023
+## Date: July 8, 2023
 
 
 ## Task
 
-- Set up an AWS Infrastructure with Route 53 Geolocation for three regions (North America, Europe, Asia), and configure three Application Load Balancers with two EC2 instances each, connected with Route 53 for inter-regional load balancing.
+- Deploy Nginx Docker image from the Elastic Container Registry (ECR) onto Amazon Elastic Container Service (ECS) using the Fargate launch type. Set up a simple webpage using Nginx as the web server.
 
 
 ## Step 1
 
-- I designed an infrastructure diagram illustrating the configuration of Route 53 Geolocation for three distinct regions. Each region should include one Application Load Balancer and two EC2 instances.
+- I have created an ECS infrastructure utilizing Fargate as the launch type. The infrastructure includes a load balancer that evenly distributes traffic among three tasks within a container instance. Additionally, I have set up a Service that retrieves the Nginx Docker image from Amazon ECR. 
 
-![2  Route53 Diagram](https://user-images.githubusercontent.com/81208412/230541868-ffcd4d47-8ef0-454c-b27a-31e5996578df.jpg)
+![1](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/2.%20Result/1.jpg)
 
 
 ## Step 2
@@ -25,23 +25,7 @@
 
 - ### us-east-1
 
-![2  EC2-US-East-1](https://user-images.githubusercontent.com/81208412/230542770-b2e63a3a-1ae1-4e31-9bce-af3715efcd49.jpg)
-
-![1  ELB-US-East-1](https://user-images.githubusercontent.com/81208412/230542783-1ffeeafc-ee3d-410d-bb2f-a3bcd763f355.jpg)
-
-
-- ### eu-central-1
-
-![2  EC2-EU-Central-1](https://user-images.githubusercontent.com/81208412/230542898-2db4957a-2fdc-4aa5-ac7f-04869fb2f413.jpg)
-
-![1  ELB-EU-Central-1](https://user-images.githubusercontent.com/81208412/230542906-8aba542d-5ff7-472a-855e-c514ada127dc.jpg)
-
-
-- ### ap-southeast-1
-
-![2  EC2-AP-Southeast-1](https://user-images.githubusercontent.com/81208412/230542943-6f5f47b6-894c-4441-a34e-e4c29f3e7b3b.jpg)
-
-![1  ELB-AP-Southeast-1](https://user-images.githubusercontent.com/81208412/230542960-e6a9294e-2e31-4f59-bb91-3d2eea1577ca.jpg)
+![1](https://github.com/John-Rivero/AWS-DevOps-Portfolio/blob/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate/1.%20ECS/1.jpg)
 
 
 
