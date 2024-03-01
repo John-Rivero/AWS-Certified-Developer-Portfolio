@@ -1,34 +1,16 @@
 # AWS Certified Developer Projects
 # Table of Contents
 
-- [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](#1-Multi-Region-Geolocation-Load-Balancing-with-Route-53-Optimizing-Traffic-Distribution-across-3-Regions-with-Elastic-Load-Balancers-and-EC2-Instances)
-
-
-- [2. Effortless Web Deployment: Deploying a Static Website to S3 with CloudFront and Route 53 for Optimal Performance and Scalability](#2-Effortless-Web-Deployment-Deploying-a-Static-Website-to-S3-with-CloudFront-and-Route-53-for-Optimal-Performance-and-Scalability)
-
-
-- [3. Containerized Nginx Deployment Orchestrating Nginx with ECS Fargate](#3-Containerized-Nginx-Deployment-Orchestrating-Nginx-with-ECS-Fargate)
+- [NBA Stats Tracker - GUI App with AWS RDS Integration](#nba-stats-tracker---gui-app-with-aws-rds-integration)
 
 
 
+## [NBA Stats Tracker - GUI App with AWS RDS Integration](https://github.com/John-Rivero/AWS-Certified-Developer-Portfolio/tree/main/NBA%20Stats%20Tracker%20-%20GUI%20App%20with%20AWS%20RDS%20Integration)
 
-## [1. Multi-Region Geolocation Load Balancing with Route 53: Optimizing Traffic Distribution across 3 Regions with Elastic Load Balancers and EC2 Instances](https://github.com/John-Rivero/AWS-Cloud-Engineer-Portfolio/tree/main/1.%20Multi-Region%20Geolocation%20Load%20Balancing%20with%20Route%2053%20Optimizing%20Traffic%20Distribution%20across%203%20Regions%20with%20Elastic%20Load%20Balancers%20and%20EC2%20Instances)
-
-- This project involves setting up an AWS Infrastructure with Route 53 Geolocation configured for three distinct regions, namely us-east-1, eu-central-1, and ap-southeast-1.
-
-- In addition, this project employs three separate elastic load balancers, each with two EC2 instances, across the three regions, which are all interconnected with Route 53.
+- NBA Stats Tracker is a user-friendly application that provides a detailed view of NBA team statistics for the 2023 season, complete with team scores, player stats, and logos to enhance fan experience and team identification.
 
 
-
-## [2. Effortless Web Deployment: Deploying a Static Website to S3 with CloudFront and Route 53 for Optimal Performance and Scalability](https://github.com/John-Rivero/AWS-Cloud-Engineer-Portfolio/tree/main/2.%20Effortless%20Web%20Deployment%20Deploying%20a%20Static%20Website%20to%20S3%20with%20CloudFront%20and%20Route%2053%20for%20Optimal%20Performance%20and%20Scalability)
-
-- This project involves utilizing Amazon S3 to deploy a static website.
-
-- Additionally, this project leverages CloudFront as the content distribution network (CDN) and Route 53 as the domain name system (DNS).
+- The app leverages Rapid API's NBA API for real-time data and uses Amazon RDS for backend operations, ensuring secure data storage and tracking user interactions to gain insights into team popularity and user engagement.
 
 
-## [3. Containerized Nginx Deployment Orchestrating Nginx with ECS Fargate](https://github.com/John-Rivero/AWS-DevOps-Portfolio/tree/main/6.%20Containerized%20Nginx%20Deployment%20Orchestrating%20Nginx%20with%20ECS%20Fargate)
 
-- In this project, a straightforward web server is deployed using ECS. The server pulls the Nginx Docker image from the ECR repository.
-
-- Additionally, this project leverages application load balancing to evenly distribute traffic among the three tasks running within the container instance.
