@@ -37,6 +37,6 @@ Designed for both casual and avid NBA fans, NBA Stats Tracker aims to be the go-
 
 ## Result
 
--   Below is a video of the application
+-   Below is a video of the application.
 
 ![Alt text for the GIF](image/Video.gif)
