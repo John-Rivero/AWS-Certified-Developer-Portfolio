@@ -1,4 +1,4 @@
-# AWS Certified Developer Projects
+# AWS Certified Developer Portfolio
 # Table of Contents
 
 - [NBA Stats Tracker - GUI App with AWS RDS Integration](#nba-stats-tracker---gui-app-with-aws-rds-integration)
