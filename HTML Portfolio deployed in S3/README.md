@@ -1,4 +1,4 @@
-## Title: Online Portfolio deployed in S3 for Static Website
+## Title: Online Portfolio Hosted on S3 for Static Website
 
 ## Program by: John Rivero
 
