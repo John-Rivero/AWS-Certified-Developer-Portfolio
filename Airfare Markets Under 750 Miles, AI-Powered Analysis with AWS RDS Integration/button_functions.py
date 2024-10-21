@@ -11,6 +11,53 @@ load_dotenv()
 
 class Buttons:
     
+    def __init__(self):
+        self.main_dataframe = None
+    
+    @staticmethod
+    def apply_html(dataframe): #THIS FUNCTION IS FOR CONVERTING A DATAFRAME INTO AN HTML
+        try:
+            html_table = dataframe.to_html(index=False, escape=False)
+            table_style = """
+                            <style>
+                            table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                border-radius: 18px;
+                                overflow: hidden;
+                            }
+                            th {
+                                border 1px solid black;
+                                background-color: rgb(80, 200, 200);
+                                color: white;
+                                font-weight: bold;
+                                border-radius: 16px;
+                                padding: 16px; /* Increased padding */
+                                font-size: 12px; /* Increased font size */
+                            }
+                            td {
+                                border 1px solid black;
+                                padding: 10px; /* Increased padding */
+                                font-size: 11px; /* Increased font size */
+                            }
+                            tr:nth-child(even) td {
+                                background-color: rgb(0, 0, 0);
+                            }
+                            tr:nth-child(odd) td {
+                                background-color: white;
+                            }
+                            </style>
+                            """
+            
+            
+            styled_html_table = f'{table_style}{html_table}'
+            return styled_html_table
+    
+        except Exception as error:
+            QMessageBox.critical(None, "Error", str(error), QMessageBox.StandardButton.Ok)
+            return   
+
+    
     @staticmethod
     def connect_database():
         
@@ -81,11 +128,7 @@ class Buttons:
         return completion.choices[0].message.content
     
                 
-    def Search_Button_Clicked(self):
-
-        #retrieve the text from the textbox
-        user_input = self.UserInput_TextEdit.toPlainText()
-        
+    def LoadData_Button_Clicked(self):
         #connect to the database
         cursor = Buttons.connect_database()
         select_query = "SELECT year, mkt_fare, city1, city2 FROM airline_analysis WHERE year = 2024 LIMIT 10"
@@ -96,16 +139,25 @@ class Buttons:
         columns = [desc[0] for desc in cursor.description]
         
         #convert to the dataframe
-        dataframe = pd.DataFrame(results, columns=columns)
-        print(dataframe)
+        self.main_dataframe = pd.DataFrame(results, columns=columns)
+        self.label.setHtml(Buttons.apply_html(self.main_dataframe))    
+                
+                
+    def Search_Button_Clicked(self):
+
+        #retrieve the text from the textbox
+        user_input = self.UserInput_TextEdit.toPlainText()
+        
+        
         
         #Insert the result to execute the AI request
-        result = Buttons.connect_ai(dataframe, user_input)
+        result = Buttons.connect_ai(self.main_dataframe, user_input)
 
         
         self.AI_Result_TextEdit.setText(result)
         
         self.UserInput_TextEdit.clear()
+
 
     def Clear_Button_Clicked(self):
         self.UserInput_TextEdit.clear()
