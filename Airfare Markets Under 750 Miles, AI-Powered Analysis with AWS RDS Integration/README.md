@@ -14,29 +14,24 @@
 
     Designed to streamline airfare analysis, this application represents a powerful fusion of AI and cloud database technologies, offering an intuitive and informative experience for users seeking to understand the intricacies of airfare markets within 750-mile routes.
 
-## Code
-
+## Codebase
 -   Below is an image of the code.
 
-![Image alt text](image/code.png)
+![Image alt text](images/code.png)
 
-## AWS Achitecture Diagram
 
+## Achitecture Diagram
 - Below  is a diagram illustrating the architecture of the application.
 
-![Image alt text2](image/Diagram.png)
-
-
+![Image alt text2](images/my_airfare_analysis_diagram.png)
 
 ## Amazon RDS 
-
 -   Below is an image of the database.
 
-![Image alt text3](image/Database.png)
+![Image alt text3](images/data.png)
 
 
 ## Result
-
 -   Below is a video of the application.
 
 [![Watch the video](https://img.youtube.com/vi/v9KGbmoxgcM/hqdefault.jpg)](https://youtu.be/v9KGbmoxgcM)

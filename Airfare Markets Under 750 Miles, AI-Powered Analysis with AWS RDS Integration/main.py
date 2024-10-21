@@ -176,7 +176,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Airfare Market AI"))
         self.Title.setText(_translate("MainWindow", "Airfare Market AI"))
         self.LoadData_Button.setText(_translate("MainWindow", "Load Data"))
         self.Search_Button.setText(_translate("MainWindow", "Search"))
