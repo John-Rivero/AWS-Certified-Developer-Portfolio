@@ -2,7 +2,7 @@
 
 ## Program by: John Rivero
 
-## Date: Octobr 25, 2024
+## Date: October 25, 2024
 
 ## Description
 
